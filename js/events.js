@@ -5,7 +5,7 @@ function getIt() {
 }
 
 function frameIt() {
-  document.querySelector('img').addEventListener('load', function() {
+ $('img').on('load', function() {
     alert("hey you!")
     $('img').addClass("tasty")
   })
